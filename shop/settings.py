@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-w%6%*=5qytiz9=hl=^65y!k0cipeiy5coeru(ajhxhsrir^7nv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['lavanya-buw0.onrender.com','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['lavanya-2.onrender.com','localhost','127.0.0.1']
 
 
 # Application definition
