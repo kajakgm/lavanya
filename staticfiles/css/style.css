@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    overflow: hidden;
+}
+html
+{
+    font-size:14px;
+}
+body
+{
+    font-family: 'Noto Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.old_price
+{
+    font-weight: bold;
+    color: red;
+
+}
+.new_price
+{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.hot
+{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+    position:absolute;
+    top: 0;
+    right:20px;
+    z-index: 10;
+    width: 50px;
+    text-align: center;
+    
+} 
+.product-img {
+    width: 100%; /* Makes sure the image fits inside its container */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 300px; /* Limits image height */
+    object-fit: cover; /* Ensures the image is cropped properly */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+.product-details {
+    padding-left: 20px; /* Adds spacing between image and text */
+}
+.product-description {
+    max-height: 100px; /* Prevents excessive text overflow */
+    overflow: hidden; /* Hides overflowing text */
+    text-overflow: ellipsis; /* Adds "..." when text is too long */
+    white-space: nowrap; /* Keeps text in a single line */
+}
+
